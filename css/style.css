@@ -1,9 +1,4 @@
-/*--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html,body{
 	background:#fff;
 	font-size: 100%;
@@ -374,6 +369,15 @@ ul.dropdown-menu li{
   background-size: cover;
   padding: 5em 0;
 }
+    .middle-content-ourdifference {
+  background: url(../images/LearningTreeABA.png) no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+        background-position: center;
+  background-size: cover;
+  padding: 5em 0;
+}
         .middle-content-getstarted {
   background: url(../images/four.jpg) no-repeat center;
   width: 100%;
@@ -409,6 +413,7 @@ ul.dropdown-menu li{
   width: 100%;
   min-height: 280px;
   padding: 5em 0;
+  margin-top: 40px;
         
 }
 
@@ -431,6 +436,18 @@ width:75%;
  font-family: 'Raleway', sans-serif;
    font-weight: 700;
   line-height:1.5em;
+}
+
+.middle-content1 h4{
+color:#fff;
+text-align:center;
+margin:0 auto;
+width:75%;
+	font-size:1.4em;
+ font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+  line-height: 1.8em;
+    padding-top: 1.0em;
 }
 
 /*--news--*/
