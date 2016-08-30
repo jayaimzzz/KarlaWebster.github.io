@@ -854,120 +854,114 @@ ul.social li a.youtube:hover {
 }
 /*--//welcome--*/
 /*-- contact --*/
-.contact {
-  padding: 5em 0;
+.your-top {
+  border: 1px solid #ADADAD;
 }
-.contact-grids h3,.address-more h3{
-  	font-family: 'Raleway', sans-serif;
-	 font-weight: 700;
-	font-size: 2em;
-	color:#000;
-	padding: 0 0.4em 0.7em;
+.your-top:nth-child(2) {
+  margin: 2.5em 0;
 }
-.map iframe{
-	min-height:300px;
-	width:100%;
-	border:none;
-	padding: 0 15px;
-}
-.contact-bottom  span,.contact-bottom-top span{
-	font-size:1.2em;
-	color:#fff;
-	display:block;
-	padding:0 0 0.5em;
-}
-.contact-bottom input[type="text"]{
-	width:100%;
-	padding:1em;	
-	border:1px solid #bbb;
-	-webkit-appearance:none;
-	outline:none;
-	color:#fff;
-	transition:border-color 0.4s;
-	-webkit-transition:border-color 0.4s;
-	-moz-transition:border-color 0.4s;
-	-o-transition:border-color 0.4s;
-	-ms-transition:border-color 0.4s;
-	background: none;
-	font-size: 1em;
-}
-.contact-bottom  input[type="text"]:hover,.contact-bottom-top textarea:hover{
-	color:#FF0068;
-	border-color:#FF0068;
+.your-top i {
+  width: 35px;
+    height: 35px;
+    display: inline-block;
+    float: left;
+    border: 2px solid #F05E6B;
+    color: #F05E6B;
+    border-radius: 100px;
+    line-height: 2em;
+    text-align: center;
+    margin: 1% 2% 0;
+    font-size: 1em;
 }
 
-.contact-bottom-top textarea{
-	width:100%;
-	padding:1em;	
-	border:1px solid #bbb;
-	-webkit-appearance:none;
-	outline:none;
-	color:#bbb;
-	min-height:200px;
-	resize:none;
-	transition:border-color 0.4s;
-	-webkit-transition:border-color 0.4s;
-	-moz-transition:border-color 0.4s;
-	-o-transition:border-color 0.4s;
-	-ms-transition:border-color 0.4s;
-	 background: none;
+.your-top input[type="text"],.grid-contact-in textarea {
+  background: none;
+    width: 89%;
+    outline: none;
+    border: none;
+    padding: 0.8em 0.8em;
+    font-size: 1em;
+    color: #999;
+    float: left;
+    border-left: 1px solid #ADADAD;  
 }
-.in-contact {
-  margin-bottom: 1em;
+.grid-contact-in textarea{
+  border:1px solid #ADADAD;
+ resize:none;
+  margin-bottom:0.5em;
+  width:100%;
+   font-size: 1em;
+    padding: 0.8em;
+	    min-height: 171px;
 }
-.in-contact:nth-child(3){
-	margin: 0;
-}
-.contact-form input[type="submit"]{
-	background: none;
-	color: #fff;
-	border: none;
-	outline: none;
-	font-size: 1.2em;
-	display: inline-block;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-	display: block;
-}
-.send-top{
-	text-align: center;
-	  margin-top: 1em;
-}
-.address-grid i{
-	color:#FF0068;
-	  font-size: 2em;
-  float: left;
-  margin: 0 9% 0 0;
-  display: inline-block;
-  border: 1px solid #E4E4E4;
-  border-radius: 100px;
-  width: 70px;
-  height: 70px;
-  line-height: 2.1em;
+.grid-contact-in input[type="submit"] {
+  width: 100%;
+  font-size: 1.1em;
+  background:  #02C7DA;
+  padding: 0.7em 1em;
   text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 0 auto;
+  -webkit-appearance: none;
+  font-weight: 700;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  cursor:pointer;
 }
-.address1{
-	float: left;
-	  margin-top: 0.5em;
+.grid-contact-in input[type="submit"]:hover {
+	background:#F05E6B;
 }
-.address1 p{
-	font-size:1.4em;
-	color: #7c7c7c;
-	line-height: 1.5em;	
-	 
+.contact {
+  background: #fff;
+  padding: 6em 0;
+
 }
-.address1 p a{
-	text-decoration:none;
-	color: #7c7c7c;
+/*----*/
+.map iframe{
+	width: 100%;
+	min-height: 451px;
+	border: 0;
 }
-.address1 p a:hover{
-	color:#E64B50;
+.map{
+	padding:0;
 }
-.address {
-  padding: 5em 0 ;
+.contact-address{
+	background: #0ec7a7;
+    text-align: center;
+    padding: 5em 0;
+}
+.contact-grid1 h4 {
+    font-family: 'Poppins', 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: #FFF;
+    margin: 0em 0 0.5em;
+    font-weight: 600;
+}
+.contact-grid1:nth-child(2) {
+    margin: 1em 0;
+}
+.contact-grid1 p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.5em;
+}
+.contact-grid1 p  span{
+    display:block;
+}
+.contact-grid1 p a:hover {
+    color: #fff;
+}
+.contact-grid1 p a {
+    color: #fff;
+    text-decoration: none;
+}
+.contact-grid1 p a:hover{
+    color: #02C7DA;
 }
 /*--//contact--*/
 /*--gallery--*/
@@ -1223,7 +1217,7 @@ ul.nav.nav-pills {
 	color:#000;
 }
 .single-grid p{
-	color: #BEBDBD;
+	color: #BEBDfBD;
   font-size: 1em;
   line-height: 1.8em;
 }
