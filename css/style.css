@@ -176,10 +176,11 @@ ul.dropdown-menu li{
 }
 .banner-matter h3{
   font-size: 2.5em;
+    
   line-height: 1em;
  font-family: 'Raleway', sans-serif;
    font-weight: 700;
-  color: black;
+  color: darkcyan;
   border-bottom: 3px solid #fff;
   display: inline-block;
   padding: 0 0 15px;
@@ -2343,6 +2344,11 @@ span.label {
   border: 0;
   clear: both;
   margin:0 0 10px;
+}
+      hr.spacer-5 {
+  border: 0;
+  clear: both;
+  margin:0 0 5px;
 }
     
     .hide-bullets {
