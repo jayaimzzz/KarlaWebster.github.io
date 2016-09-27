@@ -2290,6 +2290,54 @@ h4.media-heading {
 .comment-bottom input[type="text"], .comment-bottom textarea {
  font-size: 0.9em;
 }
+    
+ /*--CON-LEFT--*/   
+    
+}
+.content-left p,.con-left p {
+    font-size: 14px;
+    color: #BFBFBF;
+    line-height: 2.2em;
+}
+.content-left p{
+	margin:1.8em 0;
+}
+.con-left {
+    float: left;
+    width: 46%;
+    border: 1px solid #fff;
+    padding: 0 2em 2em;
+    margin: 0 2%;
+}
+.con-left:hover{
+    border: 1px solid #dec689;	
+}
+.con-left:hover span.glyphicon {
+    color: #fff;
+    background: #dec689;
+}
+.con-left span {
+    font-size: 2.5em;
+    color: #fff;
+    background: #D6D6D6;
+    padding: .5em .5em;
+    border-radius: 50%;
+    top: -37px;
+}
+.con-left h5 {
+    color: #fff;
+    font-size: 2.2em;
+    margin: -0.6em 0 .4em;
+}
+.content-right {
+    padding-top: 1.5em;
+}
+.content-left a{
+	font-size:1em;
+	padding:1em 2em;
+	text-transform:uppercase;
+}
+    
 /*--typo--*/
 h1#h1-bootstrap-heading {
   font-size: 1.6em;
@@ -2344,12 +2392,10 @@ span.label {
   border: 0;
   clear: both;
   margin:0 0 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
 }
-      hr.spacer-5 {
-  border: 0;
-  clear: both;
-  margin:0 0 5px;
-}
+
     
     .hide-bullets {
 list-style:none;
@@ -2357,4 +2403,5 @@ margin-left: -40px;
 margin-top:20px;
 }
 
+    
    
