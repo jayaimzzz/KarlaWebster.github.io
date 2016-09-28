@@ -1218,7 +1218,7 @@ ul.nav.nav-pills {
 	color:#000;
 }
 .single-grid p{
-	color: #BEBDfBD;
+	color: #BEBDBD;
   font-size: 1em;
   line-height: 1.8em;
 }
@@ -2421,6 +2421,9 @@ margin-top:20px;
     padding: 15px;
     position: relative;
 }
+.testimonials h4 {
+    font-size: .50em;
+}
 .testimonials blockquote::before {
     width: 0; 
     height: 0;
@@ -2465,7 +2468,7 @@ margin-top:20px;
 }
 .testimonials span.testimonials-name {
     color: #FF0068;
-    font-size: 1.5em;
+    font-size: 1;
     font-weight: 300;
     margin: 23px 0 7px;
 }
@@ -2474,5 +2477,51 @@ margin-top:20px;
     font-size: 12px;
 }
 
+
+/* CULTURE ICONS */
+ section.our-services {
+	padding:100px 0;
+	text-align:center;
+}
+section.our-services h3.text-center {
+	font-size:2.5em;
+	font-weight:normal;
+	padding:20px 0;
+	font-family: 'Poppins', sans-serif;
+}
+section.our-services p.text-center {
+	font-size:1.1em;
+	font-weight:300;
+	line-height:30px;
+	padding:0px 0 60px;
+}
+section.our-services .serv i.fa {
+	font-size: 40px;
+    color: #fff;
+    text-align: center;
     
+    background-color: #0ec7a7;
+    padding:15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 48px;
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+}
+
+section.our-services .serv h4.text-center {
+	font-size:1.3em;
+	font-weight:normal;
+	padding:20px 0;
+	font-family: 'Poppins', sans-serif;
+}
+section.our-services .serv p {
+	font-size:.75em;
+	font-weight:300;
+	line-height: 20px;
+    padding: 0 5px;   
    
