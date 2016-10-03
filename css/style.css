@@ -278,7 +278,7 @@ padding: 16em 0 ;
 }
 .grid-top {
   padding:4em 2em 3em;
-  border: 1px solid #E4E4E4;
+  border-right: 1px solid #E4E4E4;
   position: relative;
   text-align: center;
    min-height: 204px;
@@ -409,7 +409,7 @@ padding: 16em 0 ;
 }
 
        .middle-content-culture {
-  background-color: #eeeeee;
+  background-color: #d6d6d6;
   width: 100%;
   min-height: 280px;
   padding: 5em 0;
@@ -424,6 +424,25 @@ padding: 16em 0 ;
   display: block;
   background-size: cover;
   padding: 5em 0;
+        
+}
+
+       .middle-content-physicians {
+  background: url(../images/Randolph.jpg) no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
+       .middle-content-physicians2{
+  background-color: #d6d6d6;
+  width: 100%;
+  min-height: 280px;
+  padding: 5em 0;
+  margin-top: 40px;
         
 }
 
@@ -1104,6 +1123,10 @@ figure.effect-zoe:hover p.icon-links span:first-child {
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
+
+figure.effect-zoe, figure.effect-zoe > iframe {
+   width: 100% !important;
+}
 .gallery-grid {
   padding: 1em 0;
 }
@@ -1323,7 +1346,7 @@ ul.blog-ic {
 @media(max-width:1200px){	
 .grid-top {
     padding: 4em 2em 3em;
-    border: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
     position: relative;
     text-align: center;
     min-height: 258px;
