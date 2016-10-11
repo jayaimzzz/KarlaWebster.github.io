@@ -249,11 +249,11 @@ padding: 16em 0 ;
 }
 .col-top h2 {
   	color:#FF0068;
-  	font-size: 2.5em;
+  	font-size: 2em;
   	padding: 0 0 0.3em;
-   font-family: 'Coming Soon', 'Raleway', sans-serif;
-     font-weight: 700;
-    letter-spacing: 2px;
+   font-family: 'Raleway', sans-serif;
+     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .col-top h3 {
@@ -1756,7 +1756,7 @@ h1.grid2 {
 .banner {
     min-height: 343px;
 }
-.col-top h2,.col-mid h3,.content-events h3 {
+.col-top h2,.col-top h3,.col-mid h3,.content-events h3 {
     font-size: 2em;
 }
 .grid-top {
@@ -2124,7 +2124,7 @@ i.glyphicon.glyphicon-search {
 .col-top {
   padding: 1.5em 0 4em;
 }
-.col-top h2, h3, .col-mid h3, .content-events h3 {
+.col-top h2, .col-top h3, h3, .col-mid h3, .content-events h3 {
   font-size: 1.5em;
 }
 .col-top p, .col-mid p, .content-events p ,.caption p,.content-middle3 p{
