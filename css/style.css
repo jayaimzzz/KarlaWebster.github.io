@@ -481,6 +481,15 @@ padding: 16em 0 ;
         
 }
 
+       .middle-content-culture2 {
+  background-color: #d6d6d6;
+  width: 100%;
+  min-height: 280px;
+  padding: 2em 0;
+  margin-top: 5px;
+        
+}
+
        .middle-content-boston {
   background: url(../images/RANDOLPHcontent.jpg) no-repeat center;
   width: 100%;
