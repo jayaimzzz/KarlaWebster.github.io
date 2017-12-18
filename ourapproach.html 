@@ -170,6 +170,9 @@ src="https://www.facebook.com/tr?id=1685673055021651&ev=PageView&noscript=1"
     
     	<div class="container">
             
+
+            
+            
             	<div class="choose">
 		<div class="container">
 			<div class="us">
@@ -260,13 +263,14 @@ When children communicate to us that it isn’t working for them, we honor it, a
             
                         
 			<div class="top-choose">
-			<div class="col-md-8 choose-grid popular-img img-responsive">
-						
-				<img src="images/BostonWeather.jpg" class="img-responsive" alt=""/>
-			</div>
-
+				<div class="col-md-4 choose-grid">
 					
+					<div class="col-sm-12 choose-grid2">
+						<h4> IMAGE HERE</h4>
+	
+					</div>
 					<div class="clearfix"> </div>
+				</div>
 				
 				<div class="col-md-8 choose-grid">
 					
