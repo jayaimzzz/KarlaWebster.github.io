@@ -481,6 +481,61 @@ padding: 16em 0 ;
         
 }
 
+       .middle-content-ei {
+  background: url(../images/parachute.png)
+      no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
+       .middle-content-phyins {
+  background: url(../images/fwstaff.png)
+      no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
+       .middle-content-initial {
+  background: url(../images/trains.jpg)
+      no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
+       .middle-content-FAQ {
+  background: url(../images/FAQ.png)
+      no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
+       .middle-content-clinicald {
+  background: url(../images/clinicald.png)
+      no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
        .middle-content-culture {
   background-color: #d6d6d6;
   width: 100%;
@@ -501,6 +556,36 @@ padding: 16em 0 ;
 
        .middle-content-boston {
   background: url(../images/RANDOLPHcontent.jpg) no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
+       .middle-content-ourapproach {
+  background: url(../images/play.png) no-repeat right center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
+       .middle-content-splash {
+  background: url(../images/splashday.png) no-repeat center;
+  width: 100%;
+  min-height: 280px;
+  display: block;
+  background-size: cover;
+  padding: 5em 0;
+        
+}
+
+       .middle-content-otherserv {
+  background: url(../images/otherserv.png) no-repeat center;
   width: 100%;
   min-height: 280px;
   display: block;
