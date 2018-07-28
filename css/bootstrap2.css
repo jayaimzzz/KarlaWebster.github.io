@@ -34,6 +34,9 @@
     height: auto;
     box-sizing: none !important;
   }
+  .team-member p {
+    width: calc(100% - 140px);
+  }
   
   }
 } 
