@@ -27,7 +27,7 @@
   width: 100%
 }
 
-@media (max-width: 390px) {
+@media (max-width: 420px) {
   .team-member {
     display: flex;
     width: 100%;
