@@ -1,17 +1,19 @@
-#team-container {
-}
+#team-container {}
+
 .team {
   display: flex !important;
   flex-wrap: wrap;
   /* width: 100%; */
 }
-.team-member{
+
+.team-member {
   width: 180px;
   height: 260px;
   /* background-color: pink; */
   /* border: 2px solid black; */
   /* margin: 10px; */
 }
+
 .profile-pic {
   width: 130px;
   height: 150px;
@@ -19,7 +21,21 @@
   border-radius: 5px;
   padding: 5px;
 }
+
 .image {
   /* background-color: purple; */
   width: 100%
+}
+
+@media (max-width: 390px) {
+  .team-member {
+    display: flex;
+    width: 100%;
+    height: auto;
+    box-sizing: none !important;
+  }
+  
+  }
+} 
+
 }
